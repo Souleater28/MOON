@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -75,3 +76,82 @@ img {
   width: 100%;
   height: 100%;
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  max-width: 1600px;
+  padding-top: 70px;
+  background-color: rgb(32, 34, 34);
+}
+.menue {
+  position: relative;
+  top: 60px;
+  left: 0;
+  max-width: 1600px;
+  max-height: 60px;
+  -webkit-box-shadow: 1px 18px 12px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 18px 12px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 18px 12px -3px rgba(0, 0, 0, 0.75);
+}
+.buttons_m {
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 45%;
+  max-width: 300px;
+  min-height: 60px;
+}
+.button_m {
+  text-align: center;
+  position: relative;
+  top: 0;
+  height: 100%;
+  min-width: auto;
+  border: 1px;
+  border-top: 0;
+  border-bottom: 0;
+  padding: 4px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-style: solid;
+  border-color: black;
+  color: white;
+  font-size: 25px;
+}
+/* .sitename {
+  background-color: rgb(163, 24, 163);
+  position: relative;
+  max-width: ;
+  min-height: 70px;
+  padding: 5px;
+  top: -5px;
+} */
+.photo {
+  position: absolute;
+  max-width: 1168px;
+  max-height: 443px;
+  min-width: 500px;
+  min-height: 200px;
+  top: 23%;
+  left: 68px;
+}
+img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.whiteborder {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+>>>>>>> ffac0968d7abac6cb62f92a9b4bb184627615319
