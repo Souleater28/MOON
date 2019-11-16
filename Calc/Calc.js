@@ -57,7 +57,7 @@ function proverka(event) {
 function calc(event) {
   calcInput.value = eval(calcInput.value);
 }
-let Timeless = calcInput;
+let Timeless;
 function putValue(value) {
   switch (value) {
     case "C":
@@ -75,7 +75,7 @@ function putValue(value) {
 
   Timeless = calcInput.value;
 }
-
+function evalpreserve(Timeless) {}
 
 const buttons = Array.from(document.getElementsByClassName("button"));
 buttons.map((button, index) => {
