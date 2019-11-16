@@ -1,10 +1,9 @@
-const newItem = document.createElement("div");
-newItem.classList.add("item");
-newItem.appendChild(document.createElement("div"));
+// const newItem = document.createElement("div");
+// newItem.classList.add("item");
+// newItem.appendChild(document.createElement("div"));
 
-const elem = document
-  .getElementById("abc")
-  .insertBefore(newItem, document.getElementsByClassName("modal")[0]);
+const elem = document.getElementById("abc");
+// .insertBefore(newItem, document.getElementsByClassName("modal")[0]);
 
 const cookData = object => {
   let result = "";
@@ -32,7 +31,7 @@ function changestatus(event) {
 }
 
 const items = Array.from(document.getElementsByClassName("item"));
-console.log(items);
+// console.log(items);
 
 items.map((item, index) => {
   if (!item.classList.contains("urina")) {
